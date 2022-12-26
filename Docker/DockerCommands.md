@@ -45,10 +45,11 @@ Docker image is as an object that contains an OS file system and an application.
     docker run -it aamirpinger/helloworld sh (iterative mode pull the image if not find on local machine and create a container and run it)
 
 Examples:
-docker run --name=web2 -p 4000:80 -d nginx:latest (-d stand for detech mean run the container and it will automatically run on backgroung)
-docker run --name=web3 -p 4000:80 -d mystaticapp:v1
+1- docker run --name=web2 -p 4000:80 -d nginx:latest 
+-d stand for detech mean run the container and it will automatically run on backgroung
+2- docker run --name=web3 -p 4000:80 -d mystaticapp:v1
 
-#build the images from the Dockerfile
+								build the images from the Dockerfile
 12- docker build -t mystaticapp:v1 .
 
 
