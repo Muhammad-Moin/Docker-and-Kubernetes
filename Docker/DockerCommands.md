@@ -1,6 +1,9 @@
 Docker has two components:
+
 1- Docker client
+
 2- Docker daemon
+
 Docker image is as an object that contains an OS file system and an application.
 
 *	Container is a stop version of images.
